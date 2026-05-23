@@ -32,10 +32,6 @@ SELECT games.title AS 'Title', sales.global_sales AS 'Global Sales', CASE WHEN s
 * **SQL Query:**
 SELECT games.genre AS 'Genre', COUNT(games.genre) AS 'Total Games Released', SUM(sales.global_sales) AS 'Total Global Sales' FROM games LEFT JOIN sales ON games.game_id = sales.game_id GROUP BY games.genre;
 
-## Data Visualization (Tableau)
-By mirroring the relational data join inside Tableau, the following dashboard illustrates the total global sales generated across major video game genres, showcasing market volume dominance:
-
-
 
 ## Core Conclusions
 * **Genre Dominance:** Sandbox and Action genres represent a significant portion of overall global revenue within the dataset, providing highly concentrated returns relative to title volume.
