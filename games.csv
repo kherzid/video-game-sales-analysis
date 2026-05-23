@@ -1,0 +1,11 @@
+game_id,title,genre,release_year,publisher
+1,Super Mario Bros.,Platform,1985,Nintendo
+2,Grand Theft Auto V,Action,2013,Take-Two Interactive
+3,Wii Sports,Sports,2006,Nintendo
+4,Call of Duty: Black Ops II,Shooter,2012,Activision
+5,Minecraft,Sandbox,2011,Mojang
+6,Tetris,Puzzle,1989,Game Boy
+7,Red Dead Redemption 2,Action,2018,Take-Two Interactive
+8,Pac-Man,Arcade,1980,Namco
+9,The Witcher 3: Wild Hunt,RPG,2015,CD Projekt
+10,Cyberpunk 2077,RPG,2020,CD Projekt
