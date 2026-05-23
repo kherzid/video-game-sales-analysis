@@ -1,4 +1,4 @@
---1. Find the total global sales and average release year for a specific publisher. 
+--1. Find the total global sales and average release year for Take-Two Interactive. 
 
 SELECT games.game_id, avg(games.release_year) AS 'Average Release Year' , 
 games.publisher, sum(sales.global_sales) AS 'Global Sales Sum'
